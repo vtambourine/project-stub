@@ -1,0 +1,21 @@
+block 'hello' {
+	
+	content: [
+		{
+			tag: 'p',
+			content: 'Hello, Mr. Feynman!'
+		},
+		{
+			tag: 'img',
+			attrs: {
+				src: '../../desktop.blocks/hello/hello_person_feynman.jpg',
+				alt: 'Mr. Feynman'
+			}
+		},
+		{
+			tag: 'p',
+			content: this.ctx.content
+		}
+	]
+
+}
