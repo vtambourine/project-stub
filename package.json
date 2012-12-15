@@ -12,6 +12,12 @@
   "dependencies": {
     "bem": "git://github.com/bem/bem-tools.git"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "launch": ">=0"
+  },
+  "launchconf": {
+    "remote": "alienstook.me",
+    "remotepath": "~/www/project-stub"
+  },
   "private": true
 }
